@@ -1,100 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Library</title>
-    <style>
-        body {
-            background-color: #f8f8f8;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book Library</title>
+  <style>
+    body {
+      background-color: #f8f8f8;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
 
-        .book-library {
-            max-width: 800px;
-            margin: 20px auto;
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
+    .book-library {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
 
-        .book {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 20px;
-            border-bottom: 1px solid #e0e0e0;
-            padding-bottom: 20px;
-        }
+    .book {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 20px;
+    }
 
-        .book:last-child {
-            border-bottom: none;
-        }
+    .book:last-child {
+      border-bottom: none;
+    }
 
-        .book img {
-            width: 120px;
-            height: auto;
-            border-radius: 4px;
-        }
+    .book img {
+      width: 120px;
+      height: auto;
+      border-radius: 4px;
+    }
 
-        .book-details {
-            flex: 1;
-            text-align: left;
-            margin-left: 20px;
-        }
+    .book-details {
+      flex: 1;
+      text-align: left;
+      margin-left: 20px;
+    }
 
-        .book-details h3 {
-            margin: 0;
-            font-size: 18px;
-            color: #333333;
-        }
+    .book-details h2 {
+      margin: 0;
+      font-size: 18px;
+      color: #333333;
+    }
 
-        .book-details p {
-            margin: 5px 0;
-            color: #777777;
-        }
+    .book-details p {
+      margin: 5px 0;
+      color: #777777;
+    }
 
-        .price-block {
-            color: #ffffff;
-            background-color: #2ecc71;
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-size: 16px;
-        }
-    </style>
+    .price-block {
+      color: #ffffff;
+      background-color: #2ecc71;
+      padding: 5px 10px;
+      border-radius: 4px;
+      font-size: 16px;
+      display: inline-block;
+      margin-top: 8px;
+    }
+  </style>
 </head>
 <body>
-    <div class="book-library">
-        <div class="book">
-            <img src="https://m.media-amazon.com/images/I/71avavIrIvL.jpg" alt="Spy in the Amber">
-            <div class="book-details">
-                <h3>SPY IN THE AMBER</h3>
-                <p>BY Manohar Malgonkar</p>
-                <div class="price-block">Rs. 299</div>
-            </div>
-        </div>
-        
-        <div class="book">
-            <img src="https://m.media-amazon.com/images/I/71Kw3cy2G4L.jpg" alt="Sacred Games">
-            <div class="book-details">
-                <h3>Sacred Games</h3>
-                <p>by Vikram Chandra</p>
-                <div class="price-block">Rs. 199</div>
-            </div>
-        </div>
+  <div class="book-library">
+    <h1>Book Library</h1>
 
-        <div class="book">
-            <img src="https://m.media-amazon.com/images/I/81MZP25C74L.jpg" alt="Byomkesh Bakshi">
-            <div class="book-details">
-                <h3>BYOMKESH BAKSHI</h3>
-                <p>By Sharadindu Bandyopadhyay</p>
-                <div class="price-block">Rs. 249</div>
-            </div>
-        </div>
+    <div class="book">
+      <img src="https://m.media-amazon.com/images/I/71avavIrIvL.jpg" alt="Spy in the Amber">
+      <div class="book-details">
+        <h2>SPY IN THE AMBER</h2>
+        <p>BY Manohar Malgonkar</p>
+        <div class="price-block">Rs. 299</div>
+      </div>
     </div>
+
+    <div class="book">
+      <img src="https://m.media-amazon.com/images/I/71Kw3cy2G4L.jpg" alt="Sacred Games">
+      <div class="book-details">
+        <h2>Sacred Games</h2>
+        <p>by Vikram Chandra</p>
+        <div class="price-block">Rs. 199</div>
+      </div>
+    </div>
+
+    <div class="book">
+      <img src="https://m.media-amazon.com/images/I/81MZP25C74L.jpg" alt="Byomkesh Bakshi">
+      <div class="book-details">
+        <h2>BYOMKESH BAKSHI</h2>
+        <p>By Sharadindu Bandyopadhyay</p>
+        <div class="price-block">Rs. 249</div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
